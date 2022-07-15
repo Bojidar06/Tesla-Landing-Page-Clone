@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Tesla-Landing-Page-Clone/static/css/main.fd4738f5.css",
+    "main.js": "/Tesla-Landing-Page-Clone/static/js/main.6148e66b.js",
+    "static/media/model3.jpeg": "/Tesla-Landing-Page-Clone/static/media/model3.372f67ca29f5537fdd31.jpeg",
+    "static/media/models.jpeg": "/Tesla-Landing-Page-Clone/static/media/models.83cfb9b5584ca21a2ba8.jpeg",
+    "static/media/modely.jpeg": "/Tesla-Landing-Page-Clone/static/media/modely.e9d7d00db3f8bcebc371.jpeg",
+    "index.html": "/Tesla-Landing-Page-Clone/index.html",
+    "main.fd4738f5.css.map": "/Tesla-Landing-Page-Clone/static/css/main.fd4738f5.css.map",
+    "main.6148e66b.js.map": "/Tesla-Landing-Page-Clone/static/js/main.6148e66b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd4738f5.css",
+    "static/js/main.6148e66b.js"
+  ]
+}
