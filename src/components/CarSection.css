@@ -1,0 +1,37 @@
+section {
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+.section_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 43vh;
+  font-size: 28px;
+  z-index: 5;
+}
+
+p{
+  color: rgb(23, 26, 32);
+  font-size: 18px;
+}
+
+.section_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 45vh;
+}
+
+button{
+  width: 260px;
+  height: 40px;
+  max-width: 260px;
+  padding: 11.5px 0px;
+  margin: 13px;
+  border-radius: 20px;
+}

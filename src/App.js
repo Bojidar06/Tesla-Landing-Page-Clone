@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import Home  from './pages/Home'
+import Header from './components/Header'
+import NavBar from './components/NavBar'
+
 
 function App() {
+
+  const fixed_style = {
+    width: "100%",
+    position: "fixed"
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div style = {fixed_style}>
+      <Header />
+      <NavBar />
+      </div>
+
+      <Routes>
+        <Route path = "/" element = { <Home /> } />
+        <Route path = "/models" element = { <Home /> } />
+        <Route path = "/model3" element = { <Home /> } />
+        <Route path = "/modelx" element = { <Home /> } />
+        <Route path = "/shop" element = { <Home /> } />
+        <Route path = "/account" element = { <Home /> } />
+        <Route path = "/menu" element = { <Home /> } />
+      </Routes>      
+    </>
   );
 }
 
